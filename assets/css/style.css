@@ -1,12 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
-    background-image: url('https://cdn.ome.lt/6Ev49SYVESN07mgj5dSbf7vFZaU=/1200x630/smart/extras/conteudos/tudo-genshin-impact-destaque.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     margin: 0;
-    background-color: #f0f8ff;
+    background-color: #f9fbf2;
     color: #333;
     height: 100%;
 }
@@ -170,8 +166,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    background-color: #f3f3f3;
 }
 
 .zhongli {
@@ -192,7 +186,7 @@ body {
 }
 
 .zhongli img:hover {
-    content: url('zhongli2.jpg');
+    content: url('assets/img/zhongli.jpg');
 }
 
 #container {
