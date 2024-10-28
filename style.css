@@ -1,21 +1,52 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#inazuma {
+    padding: 0;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #f0f8ff;
+    color: #333;
+    height: 100vh; 
 }
 
-.imgKokomi {
+#inazuma {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.kokomiImages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.kokomiImages img {
     border-radius: 5px;
     border: 2px solid black;
-    transition: 0.3s;
+    transition: border 0.3s;
+    width: 100%;
+    max-width: 200px;
 }
 
 .imgKokomi:hover {
     border: 3px solid cyan;
-    transition: 0.3s;
+}
+
+#inazuma h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#inazuma p {
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 10px;
 }
