@@ -51,58 +51,6 @@ body {
     margin-top: 10px;
 }
 
-.fontaine-section {
-    background-color: #232f65;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 800px;
-    margin: 20px auto;
-    font-family: Arial, sans-serif;
-}
-
-.fontaine-section .title-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.fontaine-section h2 {
-    color: white;
-    margin: 0;
-}
-
-.fontaine-section .title-container img {
-    width: 50px;
-    height: 50px;
-}
-
-.fontaine-section p {
-    color: white;
-    line-height: 1.6;
-    text-align: justify;
-}
-
-
-.fontaine-section img {
-    display: block;
-    margin: 6px;
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-#furina {
-    display: flex;
-}
-
-.furina {
-    width: 45%;
-}
-
-#furina p {
-    line-height: 1.6;
-    text-align: justify;
-}
-
 #marido-da-luana {
     display: flex;
     justify-content: center;
@@ -175,4 +123,40 @@ p {
     border: 4px solid #0d3b66;
     padding: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.natlan-section p {
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.natlan-section img {
+    display: block;
+    margin: 6px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.natlan-section h2,
+h3 {
+    color: #b85c2b;
+    margin: 0;
+}
+
+.natlan-section .title-container img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.natlan-section {
+    background-color: #f4e7da;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
 }
