@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     background-color: #f0f8ff;
     color: #333;
-    height: 100vh; 
+    height: 100%;
 }
 
 #inazuma {
@@ -49,4 +49,56 @@ body {
     text-align: center;
     line-height: 1.5;
     margin-top: 10px;
+}
+
+.fontaine-section {
+    background-color: #232f65;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.fontaine-section .title-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fontaine-section h2 {
+    color: white;
+    margin: 0;
+}
+
+.fontaine-section .title-container img {
+    width: 50px;
+    height: 50px;
+}
+
+.fontaine-section p {
+    color: white;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.fontaine-section img {
+    display: block;
+    margin: 6px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#furina {
+    display: flex;
+}
+
+.furina {
+    width: 45%;
+}
+
+#furina p {
+    line-height: 1.6;
+    text-align: justify;
 }
