@@ -102,3 +102,32 @@ body {
     line-height: 1.6;
     text-align: justify;
 }
+
+#marido-da-luana {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+.zhongli {
+    border: 4px solid #d3a15b;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+}
+
+.zhongli img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.zhongli img:hover {
+    content: url('zhongli2.jpg');
+}
