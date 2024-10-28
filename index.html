@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../DogTeam/backToTop.js"></script>
     <link rel="stylesheet" href="../DogTeam/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,8 +27,20 @@
     </head>
 
     <body>
+        <nav id="navbar">
+            <img src="https://logos-world.net/wp-content/uploads/2023/05/Genshin-Impact-Logo.png"
+                alt="Genshin Impact logo" class="genshin-logo" href="#">
+            <li class="nav-itens">
+                <a href="#container">Mondstadt</a>
+                <a href="#marido-da-luana">Zhongli</a>
+                <a href="#inazuma">Kokomi</a>
+                <a href="#fontaine-section">Fontaine</a>
+                <a href="#natlan-section">Natlan</a>
+            </li>
+        </nav>
+
         <!-- MATHEUS ARCANGELO PESTANA -->
-        <div class="fontaine-section">
+        <div id="fontaine-section">
             <div class="title-container">
                 <h2>Fontaine - A Nação da Justiça</h2>
                 <img src="https://static.tvtropes.org/pmwiki/pub/images/emblem_fontaine.png" alt="Símbolo de Fontaine"
@@ -59,6 +72,9 @@
             </div>
         </div>
         <!-- MATHEUS ARCANGELO PESTANA -->
+
+        <button onclick="topFunction()" id="btnTopo" title="Voltar ao topo">&#8593</button>
+
     </body>
 
     </html>
