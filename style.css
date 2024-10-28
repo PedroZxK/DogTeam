@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#inazuma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgKokomi {
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+.imgKokomi:hover {
+    border: 3px solid cyan;
+    transition: 0.3s;
+}
